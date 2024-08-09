@@ -14,6 +14,7 @@
 -- configure names, password and location
 :setvar dbname SEEASDB0
 :setvar ownpass secret
+:setvar dir "/var/opt/mssql/data/"  
 -- :setvar dir "C:\Program Files\Microsoft SQL Server\MSSQL15.PROD\MSSQL\DATA\"
 -- to configue different locations for data/log see comments below
 
