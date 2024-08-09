@@ -40,7 +40,7 @@ if (@edid = 610778273 OR @edid = -2117995310)
 BEGIN print 'WARNING: Edition might not be licensed for production use ('+convert(nvarchar,@edid)+').'; END
 if (@eed <> 2 AND @eed <> 3)
 BEGIN print 'WARNING: Edition is not supported for full production use.'; END
-if (@sub <> '12.0.' AND @sub <> '13.0.' AND @sub <> '14.0.' AND @sub <> '15.0.')
+if (@sub <> '12.0.' AND @sub <> '13.0.' AND @sub <> '14.0.' AND @sub <> '15.0.' AND @sub <> '16.0.')
 BEGIN raiserror('FATAL: Not a supported SQL Server version.', 18, 1); END
 if (@eed < 1 OR @eed > 4) BEGIN raiserror('FATAL: Not a supported product edition', 18, 2); END
 GO
