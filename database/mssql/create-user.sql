@@ -12,7 +12,7 @@
 -- configure names, password and location
 :setvar dbname SEEASDB0
 :setvar runtimeuser SEERUN0
-:setvar runpass secret
+:setvar runpass secret_at_least_8_char
 
 GO
 
