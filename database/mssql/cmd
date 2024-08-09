@@ -1,2 +1,3 @@
-cd /opt/mssql-tools18/bin
-./sqlcmd -U sa -C -icreate-database.sql
+# /opt/mssql-tools18/bin
+
+sqlcmd -U sa -C -icreate-database.sql
