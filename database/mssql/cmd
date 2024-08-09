@@ -1,3 +1,5 @@
 # /opt/mssql-tools18/bin
 
 sqlcmd -U sa -C -icreate-database.sql
+
+sqlcmd -U sa -C -icreate-user.sql
